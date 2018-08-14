@@ -22,12 +22,12 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'dracula/vim'
 "Plugin 'ervandew/supertab'
 Plugin 'scrooloose/nerdtree'
-Plugin 'b4b4r07/vim-buftabs'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'jlanzarotta/bufexplorer'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'majutsushi/tagbar'
+Plugin 'Yggdroot/indentLine'
 call vundle#end()            " required
 
 syntax enable
@@ -46,6 +46,8 @@ let ayucolor="dark"   " for dark version of theme
 
 " Airline theme
 let g:airline_theme='wombat'
+let g:airline#extensions#tabline#enabled = 1
+
 "let g:airline_theme='papercolor'
 let g:jedi#force_py_version = 3 " force python 3
 
@@ -154,4 +156,5 @@ augroup END
 
 " Automatically go to next/prev line
 set whichwrap+=<,>,h,l,[,]
+let g:indentLine_char = '┆'
 
