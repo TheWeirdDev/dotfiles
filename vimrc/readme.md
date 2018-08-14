@@ -24,17 +24,17 @@ Or open vim then run `:PluginInstall` command.
 
 # Keyboard Shortcuts
 
-* F1  : Run current file
-* F2  : Toggle NerdTree
-* F3  : Toggle TagBar
-* F10 : Toggle paste mode
+* **F1**  : Run current file
+* **F2**  : Toggle NerdTree
+* **F3**  : Toggle TagBar
+* **F10** : Toggle paste mode
 
 
-* Ctrl + [Arrow keys]  : Switch between split views
-* Ctrl + Shift + [Arrow keys]  : Switch between buffers (tabs)
-* Ctrl + z  : Undo (Only in insert mode)
-* Ctrl + y  : Duplicate current line
-* Ctrl + /  : Comment out current line
-* Shift + [Up/Down]  : Move current line
+* **Ctrl + [Arrow keys]**  : Switch between split views
+* **Ctrl + Shift + [Arrow keys]**  : Switch between buffers (tabs)
+* **Ctrl + z**  : Undo (Only in insert mode)
+* **Ctrl + y**  : Duplicate current line
+* **Ctrl + /**  : Comment out current line
+* **Shift + [Up/Down]**  : Move current line
 
 
