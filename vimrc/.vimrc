@@ -4,6 +4,7 @@ filetype plugin indent on     " required
 set number relativenumber     " relative line numbers
 "set number                   " normal line numbers 
 set nofoldenable
+set cursorline " highlight current line
 set incsearch  " search as you type
 "set scrolloff=9999 " keep cursor in the middle of the screen
 set shell=/usr/bin/bash
@@ -157,4 +158,5 @@ augroup END
 " Automatically go to next/prev line
 set whichwrap+=<,>,h,l,[,]
 let g:indentLine_char = '┆'
+
 
