@@ -1,0 +1,11 @@
+# Kitty
+
+## Keyboard Shortcuts
+
+* [Ctrl + Shift + Enter]    : Split terminal
+* *[Ctrl + ArrowKeys]*        : Switch between split views
+* [Alt + ArrowKeys]         : Move current split view
+* [Alt _+ Shift + ArrowKeys] : Resize split view
+* [F5]                      : New split view to bottom
+* [F6]                      : New split view to right
+
